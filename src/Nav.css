@@ -1,0 +1,49 @@
+.nav{
+position: fixed;
+top: 0;
+width: 100%;
+padding: 20px;
+height: 30px;
+z-index: 1;
+display: flex;
+justify-content: space-between;
+transition: all 0.5s;
+transition-timing-function: ease-in;
+}
+
+.margR{
+margin-right: 200px;
+}
+
+.wrapper{
+ /* width: 100%; */
+margin-left: 80px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    list-style: none;
+    object-fit: contain;
+    color: white;
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+.nav_logo{
+position: fixed;
+width: 80px;
+object-fit: contain;
+left: 20px;
+}
+.nav_avatar{
+position: fixed;
+width: 30px;
+object-fit: contain;
+right: 20px;
+}
+
+.Banner{
+    color: white;
+}
